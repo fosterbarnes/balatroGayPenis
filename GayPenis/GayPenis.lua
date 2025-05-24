@@ -44,7 +44,7 @@ function SMODS.INIT.GayPenis()
     }
     SMODS.Consumable:take_ownership('c_venus', {
         atlas = 'Penis', 
-        pos = { x = 1, y = 3},
+        pos = {x=1,y=3},
     })
 
     -- Modify localization for poker hands
