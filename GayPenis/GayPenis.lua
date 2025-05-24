@@ -1,7 +1,7 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: GayPenis
 --- MOD_ID: GayPenis
---- MOD_AUTHOR: [FosterBarnes, tweaked by THEGODBOYYT]
+--- MOD_AUTHOR: [FosterBarnes, THEGODBOYYT]
 --- MOD_DESCRIPTION: Turns Straights -> Gay and Venus -> Penis
 --- BADGE_COLOR: FF46A2
 --- DISPLAY_NAME: Hehe, Penis
