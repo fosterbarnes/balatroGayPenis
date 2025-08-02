@@ -7,7 +7,7 @@
 
 haha funny word lmao
 
-Changes a "Straight" into a "Gay". Also changes "Venus" into "Penis" as a bonus.
+Changes a "Straight" into a "Gay". Also changes "Venus" into "Penis" and "Uranus" into "Anus" as a bonus.
 
 Originally made for balamod, but this fork is for Steammodded
 
