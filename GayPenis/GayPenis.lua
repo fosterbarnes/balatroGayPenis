@@ -1,8 +1,10 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: GayPenis
 --- MOD_ID: GayPenis
---- MOD_AUTHOR: [FosterBarnes]
+--- MOD_AUTHOR: [FosterBarnes, THEGODBOYYT]
 --- MOD_DESCRIPTION: Turns Straights -> Gay and Venus -> Penis
+--- BADGE_COLOR: FF46A2
+--- DISPLAY_NAME: Hehe, Penis
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
@@ -32,6 +34,18 @@ function SMODS.INIT.GayPenis()
     else
         sendDebugMessage("G.localization.misc is not available")
     end
+
+    -- Modify atlas for consumables
+    SMODS.Atlas {
+        key = 'Penis',
+        path = 'Tarots.png',
+        px = 71,
+        py = 95,
+    }
+    SMODS.Consumable:take_ownership('c_venus', {
+        atlas = 'Penis', 
+        pos = {x=1,y=3},
+    })
 
     -- Modify localization for poker hands
     if G and G.localization and G.localization.misc and G.localization.misc.poker_hands then
